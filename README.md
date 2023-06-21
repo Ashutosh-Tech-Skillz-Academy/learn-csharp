@@ -1,5 +1,5 @@
 
-# Creating a console Application using c sharp(C#)
+# Introduction to Microservices
 ## Prerequisites:
 1. Basic of C sharp Programming language
 
@@ -34,7 +34,7 @@
 17. File-scoped namespaces feature
 
 
-## Creating Console Application using C sharp 
+## Creating Console Application using C#
 
 ## 1. Console Application with and without Top Level Programs Without Top Level Proagrams
 ```
