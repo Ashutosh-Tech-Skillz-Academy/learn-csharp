@@ -40,6 +40,7 @@
 ```
 dotnet new console -o demo1 --use-program-main
 ```
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/950d1bfb-1ff5-4ef4-a3b2-1ac1bdd0e868)
 
 ## 2. Cosnole Application with Top Levelprograms
 ``` 
