@@ -1,5 +1,9 @@
 
 # Introduction to Microservices
+## Date Time: 29-July-2023 at 09:00 AM IST
+### Event URL:
+### Youtube URL:
+![Alt text](screenshots/image-1.png)
 ## Prerequisites:
 1. Basic of C sharp Programming language
 
@@ -15,34 +19,32 @@
 
 ## Information
 
-1. Console Application with and without Top Level Programs
-2. Without Top Level Proagrams
-3. Cosnole Application with Top Levelprograms
-4. Creating a Cosnole Application within an Existing and New folder
-5. Creating a Console Application within a new folder
-6. Creating a Console Application with .NET (6/7/8)
-7. Creating a Console Application with .NET 6
-8. Creating a Console Application with .NET 7
-9. Creating a Console Application with .NET 8
-10. Creating a Console Application with global.json inside folder
-11. Creating a Console Application with .NET 6
-12. Creating a Console Application with .NET 7
-13. Creating a Console Application with .NET 8
-14. Executing the Same Application in .NET 6/7/8
-15. Sample C# Code
-16. Global namespace imports feature
-17. File-scoped namespaces feature
+1. Console Application without Top Level Programs
+2. Console Application with Top Levelprograms
+3. Creating a Cosnole Application within an Existing and New folder
+4. Creating a Console Application within a new folder
+5. Creating a Console Application with .NET (6/7/8)
+6. Creating a Console Application with .NET 6
+7. Creating a Console Application with .NET 7
+8. Creating a Console Application with .NET 8
+9. Creating a Console Application with global.json inside folder
+10. Creating a Console Application with .NET 6
+11. Creating a Console Application with .NET 7
+12. Creating a Console Application with .NET 8
+13. Executing the Same Application in .NET 6/7/8
+14. Execute Sample C# Code
 
 
-## Creating Console Application using C#
 
-## 1. Console Application with and without Top Level Programs Without Top Level Proagrams
+## Creating Console Application using C#.
+
+## 1. Console Application without Top Level Programs.
 ```
 dotnet new console -o demo1 --use-program-main
 ```
-![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/950d1bfb-1ff5-4ef4-a3b2-1ac1bdd0e868)
+![Alt text](screenshots/image-4.png)
 
-## 2. Cosnole Application with Top Levelprograms
+## 2. Cosnole Application with Top Level Programs.
 ``` 
 dotnet new console -o demo2
 ```
@@ -59,11 +61,11 @@ internal class Program
 }  
 ```
 
+![Alt text](screenshots/image-5.png)
 
+## 3. Creating a Cosnole Application within an Existing and New folder.
 
-## 3. Creating a Cosnole Application within an Existing and New folder
-
-### 3.1.  Creating a Console Application within an Existing folder
+### 3.1.  Creating a Console Application within an Existing folder.
 > 
 1. Create a folder existingfolder
 2. Open cmd and navigate to existingfolder 
@@ -73,10 +75,9 @@ internal class Program
 
 ```
 dotnet new console
-dotnet new console -n "projectName" .
 ```
-
-## 3.2. Creating a Console Application within a new folder
+![Alt text](screenshots/image-7.png)
+## 3.2. Creating a Console Application within a new folder.
 >
 1. Execute the below command   
 2. This will create a console application within the newfolder 
@@ -88,29 +89,41 @@ dotnet new console -n "projectName"
 dotnet new console -n "projectName" -o folderName
 ```
 
-## 3.3. Viewing Compiler Version and Language Version
+![Alt text](screenshots/image-8.png)
+
+The Project file name will be same as folder name.
+
+![Alt text](screenshots/image-9.png)
+
+This will create the Porject file with different name.
+
+![Alt text](screenshots/image-10.png)
+
+This will create project inside specified folder.
+
+## 4. Creating a Console Application with .NET (6/7/8).
 
 
-## 4. Creating a Console Application with .NET (6/7/8)
-
-
-### 4.1. Creating a Console Application with .NET 6
+### 4.1. Creating a Console Application with .NET 6.
 ```
 dotnet new console -o demo3 -f net6.0
 ```
 
-### 4.2.  a Console Application with .NET 7
+![Alt text](<screenshots/image copy.png>)
+
+### 4.2.  a Console Application with .NET 7.
 ```
 dotnet new console -o demo4 -f net7.
 ```
+![Alt text](<screenshots/image copy 2.png>)
 
-### 4.3. Creating a Console Application with .NET 8
+### 4.3. Creating a Console Application with .NET 8.
 ```
 dotnet new console -o demo5 -f net8.0
 ```
+![Alt text](<screenshots/image-3 copy.png>)
 
-
-## 5. Creating a Console Application with global.json inside folder
+## 5. Creating a Console Application with global.json inside folder.
 
 > Execute the below command
 
@@ -122,34 +135,36 @@ dotnet new globaljson --sdk-version <VersionNumber> --dry-run
 dotnet new globaljson --sdk-version <VersionNumber>
 ```
 
-### 5.1. Creating a Console Application with .NET 6
+### 5.1. Creating a Console Application with .NET 6.
 ```
 dotnet --list-sdks
 dotnet new globaljson --sdk-version 6.0.408 --dry-run
 dotnet new globaljson --sdk-version 6.0.408
 dotnet new console -o demo6
 ```
-
-### 5.2. Creating a Console Application with .NET 7
+![Alt text](<screenshots/image copy 3.png>)
+### 5.2. Creating a Console Application with .NET 7.
 ```
 dotnet --list-sdks
 dotnet new globaljson --sdk-version 7.0.105 --dry-run
 dotnet new globaljson --sdk-version 7.0.105
 dotnet new console -o demo7
 ```
+![Alt text](<screenshots/image-1 copy.png>)
 
-### 5.3. Creating a Console Application with .NET 8
+### 5.3. Creating a Console Application with .NET 8.
 ```
 dotnet --list-sdks
 dotnet new globaljson --sdk-version 8.0.100-preview.4.23260.5 --dry-run
 dotnet new globaljson --sdk-version 8.0.100-preview.4.23260.5
 dotnet new console -o demo8
 ```
-## 6. Executing the Same Application in .NET 6/7/8
+![Alt text](<screenshots/image-2 copy.png>)
+## 6. Executing the Same Application in .NET 6/7/8.
 >
 1. Execute the project in 6/7/8
-2. View the outpu
-### 6.1 . Sample C# Code
+2. View the output
+### 6.1 . Sample C# Code.
 
 ```
 // See https:// aka.ms/ new-console-template for more information
@@ -166,11 +181,14 @@ Console.WriteLine(Environment.WorkingSet);
 Console.WriteLine(Environment.Is64BitOperatingSystem);
 Console.WriteLine(Environment.Is64BitProcess);
 ```
+![Alt text](<screenshots/image-3 copy 2.png>)
 
-## 7. Global namespace imports feature
->
-1: Discussion and Demo
+Execute the .NET 6 project after writing above code.
 
-2: Implict Usings file
+![Alt text](<screenshots/image-4 copy.png>)
 
-## 8. File-scoped namespaces feature
+Execute the .NET 7 project after writing above code.
+
+![Alt text](<screenshots/image-5 copy.png>)
+
+Execute the .NET 8 project after writing above code.
