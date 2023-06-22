@@ -3,7 +3,8 @@
 ## Date Time: 29-July-2023 at 09:00 AM IST
 ### Event URL:
 ### Youtube URL:
-![Alt text](screenshots/image-1.png)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/ad3ab162-f5a5-45fa-abe2-875058cbc471)
+
 ## Prerequisites:
 1. Basic of C sharp Programming language
 
@@ -42,7 +43,8 @@
 ```
 dotnet new console -o demo1 --use-program-main
 ```
-![Alt text](screenshots/image-4.png)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/eeffc413-73ac-4161-8145-7d96306a45b1)
+
 
 ## 2. Cosnole Application with Top Level Programs.
 ``` 
@@ -61,7 +63,8 @@ internal class Program
 }  
 ```
 
-![Alt text](screenshots/image-5.png)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/a7d3ad2c-89a3-48d1-a19f-856de093dc21)
+
 
 ## 3. Creating a Cosnole Application within an Existing and New folder.
 
@@ -76,7 +79,8 @@ internal class Program
 ```
 dotnet new console
 ```
-![Alt text](screenshots/image-7.png)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/6d57014b-394b-49bf-a1a7-5a1fb885ea43)
+
 ## 3.2. Creating a Console Application within a new folder.
 >
 1. Execute the below command   
@@ -89,15 +93,18 @@ dotnet new console -n "projectName"
 dotnet new console -n "projectName" -o folderName
 ```
 
-![Alt text](screenshots/image-8.png)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/4e0f3c9f-0e24-49c2-a5a5-124b3c04d5b6)
+
 
 The Project file name will be same as folder name.
 
-![Alt text](screenshots/image-9.png)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/c83a851e-4b17-46b3-aa33-3818b6f3b80e)
+
 
 This will create the Porject file with different name.
 
-![Alt text](screenshots/image-10.png)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/9af19958-44b8-489d-adfa-f57183bc275d)
+
 
 This will create project inside specified folder.
 
@@ -109,19 +116,22 @@ This will create project inside specified folder.
 dotnet new console -o demo3 -f net6.0
 ```
 
-![Alt text](<screenshots/image copy.png>)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/be2847d9-6cb6-4f8c-9237-0fb405e16d3b)
+
 
 ### 4.2.  a Console Application with .NET 7.
 ```
 dotnet new console -o demo4 -f net7.
 ```
-![Alt text](<screenshots/image copy 2.png>)
+
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/870a4f92-0c50-4707-9587-c9bcc435f1c3)
 
 ### 4.3. Creating a Console Application with .NET 8.
 ```
 dotnet new console -o demo5 -f net8.0
 ```
-![Alt text](<screenshots/image-3 copy.png>)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/20319131-e937-4d66-a031-70b8fe857d61)
+
 
 ## 5. Creating a Console Application with global.json inside folder.
 
@@ -142,7 +152,8 @@ dotnet new globaljson --sdk-version 6.0.408 --dry-run
 dotnet new globaljson --sdk-version 6.0.408
 dotnet new console -o demo6
 ```
-![Alt text](<screenshots/image copy 3.png>)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/178b542f-34b5-47d5-89c3-793540df6596)
+
 ### 5.2. Creating a Console Application with .NET 7.
 ```
 dotnet --list-sdks
@@ -150,7 +161,8 @@ dotnet new globaljson --sdk-version 7.0.105 --dry-run
 dotnet new globaljson --sdk-version 7.0.105
 dotnet new console -o demo7
 ```
-![Alt text](<screenshots/image-1 copy.png>)
+
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/3d160a9a-0225-414f-8d93-cce4deef7963)
 
 ### 5.3. Creating a Console Application with .NET 8.
 ```
@@ -159,7 +171,8 @@ dotnet new globaljson --sdk-version 8.0.100-preview.4.23260.5 --dry-run
 dotnet new globaljson --sdk-version 8.0.100-preview.4.23260.5
 dotnet new console -o demo8
 ```
-![Alt text](<screenshots/image-2 copy.png>)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/a99d623d-35f5-4931-a660-0a2de7f3c9fb)
+
 ## 6. Executing the Same Application in .NET 6/7/8.
 >
 1. Execute the project in 6/7/8
@@ -181,14 +194,17 @@ Console.WriteLine(Environment.WorkingSet);
 Console.WriteLine(Environment.Is64BitOperatingSystem);
 Console.WriteLine(Environment.Is64BitProcess);
 ```
-![Alt text](<screenshots/image-3 copy 2.png>)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/6c2e0911-14ab-4865-a8ea-8db60a91e21c)
+
 
 Execute the .NET 6 project after writing above code.
 
-![Alt text](<screenshots/image-4 copy.png>)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/bcdb8c19-64fa-4eea-956c-e6194be07f04)
+
 
 Execute the .NET 7 project after writing above code.
 
-![Alt text](<screenshots/image-5 copy.png>)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/41fa4a5c-a945-4984-9baa-b8db99305626)
+
 
 Execute the .NET 8 project after writing above code.
