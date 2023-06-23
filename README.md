@@ -1,12 +1,12 @@
 
 # Introduction to Microservices
-## Date Time: 29-July-2023 at 09:00 AM IST
+## Date Time: 29-June-2023 at 09:00 AM IST
 ### Event URL:
 ### Youtube URL:
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/ad3ab162-f5a5-45fa-abe2-875058cbc471)
 
 ## Prerequisites:
-1. Basic of C sharp Programming language
+NA
 
 ## Software/Tools
 1. Visual studio
@@ -22,7 +22,7 @@
 
 1. Console Application without Top Level Programs
 2. Console Application with Top Levelprograms
-3. Creating a Cosnole Application within an Existing and New folder
+3. Creating a Console Application within an Existing and New folder
 4. Creating a Console Application within a new folder
 5. Creating a Console Application with .NET (6/7/8)
 6. Creating a Console Application with .NET 6
@@ -46,7 +46,7 @@ dotnet new console -o demo1 --use-program-main
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/eeffc413-73ac-4161-8145-7d96306a45b1)
 
 
-## 2. Cosnole Application with Top Level Programs.
+## 2. Console Application with Top Level Programs.
 ``` 
 dotnet new console -o demo2
 ```
@@ -66,7 +66,7 @@ internal class Program
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/a7d3ad2c-89a3-48d1-a19f-856de093dc21)
 
 
-## 3. Creating a Cosnole Application within an Existing and New folder.
+## 3. Creating a Console Application within an Existing and New folder.
 
 ### 3.1.  Creating a Console Application within an Existing folder.
 > 
