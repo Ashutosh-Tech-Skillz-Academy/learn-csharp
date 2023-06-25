@@ -1,9 +1,9 @@
-
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/6a66801e-c09a-4d64-be5c-95141c2fa7e5)
 # Introduction to Microservices
 ## Date Time: 29-June-2023 at 09:00 AM IST
 ### Event URL:
 ### Youtube URL:
-![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/9e004d01-e1b4-4ebc-8da8-cb2bd2483f25)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/cfff5b6b-1743-405b-acaf-14b3bb9fada9)
 
 
 ## Prerequisites:
@@ -81,10 +81,13 @@ This will create the Porject file with different name.
 
 This will create project inside specified folder.
 
-## 2. Creating a Console Application with .NET (6/7/8).
+## 2. Viewing Compiler Version and Language Version.
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/2091be5b-3901-4784-8ec6-43b360f1d633)
+
+## 3. Creating a Console Application with .NET (6/7/8).
 
 
-### 2.1. Creating a Console Application with .NET 6.
+### 3.1. Creating a Console Application with .NET 6.
 ```
 dotnet new console -o demo3 -f net6.0
 ```
@@ -92,21 +95,21 @@ dotnet new console -o demo3 -f net6.0
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/be2847d9-6cb6-4f8c-9237-0fb405e16d3b)
 
 
-### 2.2.  a Console Application with .NET 7.
+### 3.2.  a Console Application with .NET 7.
 ```
 dotnet new console -o demo4 -f net7.
 ```
 
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/870a4f92-0c50-4707-9587-c9bcc435f1c3)
 
-### 2.3. Creating a Console Application with .NET 8.
+### 3.3. Creating a Console Application with .NET 8.
 ```
 dotnet new console -o demo5 -f net8.0
 ```
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/20319131-e937-4d66-a031-70b8fe857d61)
 
 
-## 3. Creating a Console Application with global.json inside folder.
+## 4. Creating a Console Application with global.json inside folder.
 
 > Execute the below command
 
@@ -118,7 +121,7 @@ dotnet new globaljson --sdk-version <VersionNumber> --dry-run
 dotnet new globaljson --sdk-version <VersionNumber>
 ```
 
-### 3.1. Creating a Console Application with .NET 6.
+### 4.1. Creating a Console Application with .NET 6.
 ```
 dotnet --list-sdks
 dotnet new globaljson --sdk-version 6.0.408 --dry-run
@@ -127,7 +130,7 @@ dotnet new console -o demo6
 ```
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/178b542f-34b5-47d5-89c3-793540df6596)
 
-### 3.2. Creating a Console Application with .NET 7.
+### 4.2. Creating a Console Application with .NET 7.
 ```
 dotnet --list-sdks
 dotnet new globaljson --sdk-version 7.0.105 --dry-run
@@ -137,7 +140,7 @@ dotnet new console -o demo7
 
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/3d160a9a-0225-414f-8d93-cce4deef7963)
 
-### 3.3. Creating a Console Application with .NET 8.
+### 4.3. Creating a Console Application with .NET 8.
 ```
 dotnet --list-sdks
 dotnet new globaljson --sdk-version 8.0.100-preview.4.23260.5 --dry-run
@@ -146,11 +149,11 @@ dotnet new console -o demo8
 ```
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/a99d623d-35f5-4931-a660-0a2de7f3c9fb)
 
-## 4. Executing the Same Application in .NET 6/7/8.
+## 5. Executing the Same Application in .NET 6/7/8.
 >
 1. Execute the project in 6/7/8
 2. View the output
-### 4.1 . Sample C# Code.
+### 5.1 . Sample C# Code.
 
 ```
 // See https:// aka.ms/ new-console-template for more information
