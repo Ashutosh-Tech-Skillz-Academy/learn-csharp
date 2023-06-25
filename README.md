@@ -3,7 +3,8 @@
 ## Date Time: 29-June-2023 at 09:00 AM IST
 ### Event URL:
 ### Youtube URL:
-![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/ad3ab162-f5a5-45fa-abe2-875058cbc471)
+![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/9e004d01-e1b4-4ebc-8da8-cb2bd2483f25)
+
 
 ## Prerequisites:
 NA
@@ -20,55 +21,27 @@ NA
 
 ## Information
 
-1. Console Application without Top Level Programs
-2. Console Application with Top Levelprograms
-3. Creating a Console Application within an Existing and New folder
-4. Creating a Console Application within a new folder
-5. Creating a Console Application with .NET (6/7/8)
-6. Creating a Console Application with .NET 6
-7. Creating a Console Application with .NET 7
-8. Creating a Console Application with .NET 8
-9. Creating a Console Application with global.json inside folder
-10. Creating a Console Application with .NET 6
-11. Creating a Console Application with .NET 7
-12. Creating a Console Application with .NET 8
-13. Executing the Same Application in .NET 6/7/8
-14. Execute Sample C# Code
+1. Creating a Console Application within an Existing and New folder
+2. Creating a Console Application within a new folder
+3. Creating a Console Application with .NET (6/7/8)
+4. Creating a Console Application with .NET 6
+5. Creating a Console Application with .NET 7
+6. Creating a Console Application with .NET 8
+7. Creating a Console Application with global.json inside folder
+8. Creating a Console Application with .NET 6
+9. Creating a Console Application with .NET 7
+10. Creating a Console Application with .NET 8
+11. Executing the Same Application in .NET 6/7/8
+12. Execute Sample C# Code
 
 
 
 ## Creating Console Application using C#.
 
-## 1. Console Application without Top Level Programs.
-```
-dotnet new console -o demo1 --use-program-main
-```
-![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/eeffc413-73ac-4161-8145-7d96306a45b1)
 
+## 1. Creating a Console Application within an Existing and New folder.
 
-## 2. Console Application with Top Level Programs.
-``` 
-dotnet new console -o demo2
-```
-
-```using System;
-using System.Runtime.CompilerServices;
-[CompilerGenerated]
-internal class Program
-{
-    private static void <Main>$(string[] args)
-    {
-        Console.WriteLine("Hello, World!");
-    }
-}  
-```
-
-![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/a7d3ad2c-89a3-48d1-a19f-856de093dc21)
-
-
-## 3. Creating a Console Application within an Existing and New folder.
-
-### 3.1.  Creating a Console Application within an Existing folder.
+### 1.1.  Creating a Console Application within an Existing folder.
 > 
 1. Create a folder existingfolder
 2. Open cmd and navigate to existingfolder 
@@ -81,7 +54,7 @@ dotnet new console
 ```
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/6d57014b-394b-49bf-a1a7-5a1fb885ea43)
 
-## 3.2. Creating a Console Application within a new folder.
+## 1.2. Creating a Console Application within a new folder.
 >
 1. Execute the below command   
 2. This will create a console application within the newfolder 
@@ -108,10 +81,10 @@ This will create the Porject file with different name.
 
 This will create project inside specified folder.
 
-## 4. Creating a Console Application with .NET (6/7/8).
+## 2. Creating a Console Application with .NET (6/7/8).
 
 
-### 4.1. Creating a Console Application with .NET 6.
+### 2.1. Creating a Console Application with .NET 6.
 ```
 dotnet new console -o demo3 -f net6.0
 ```
@@ -119,21 +92,21 @@ dotnet new console -o demo3 -f net6.0
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/be2847d9-6cb6-4f8c-9237-0fb405e16d3b)
 
 
-### 4.2.  a Console Application with .NET 7.
+### 2.2.  a Console Application with .NET 7.
 ```
 dotnet new console -o demo4 -f net7.
 ```
 
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/870a4f92-0c50-4707-9587-c9bcc435f1c3)
 
-### 4.3. Creating a Console Application with .NET 8.
+### 2.3. Creating a Console Application with .NET 8.
 ```
 dotnet new console -o demo5 -f net8.0
 ```
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/20319131-e937-4d66-a031-70b8fe857d61)
 
 
-## 5. Creating a Console Application with global.json inside folder.
+## 3. Creating a Console Application with global.json inside folder.
 
 > Execute the below command
 
@@ -145,7 +118,7 @@ dotnet new globaljson --sdk-version <VersionNumber> --dry-run
 dotnet new globaljson --sdk-version <VersionNumber>
 ```
 
-### 5.1. Creating a Console Application with .NET 6.
+### 3.1. Creating a Console Application with .NET 6.
 ```
 dotnet --list-sdks
 dotnet new globaljson --sdk-version 6.0.408 --dry-run
@@ -154,7 +127,7 @@ dotnet new console -o demo6
 ```
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/178b542f-34b5-47d5-89c3-793540df6596)
 
-### 5.2. Creating a Console Application with .NET 7.
+### 3.2. Creating a Console Application with .NET 7.
 ```
 dotnet --list-sdks
 dotnet new globaljson --sdk-version 7.0.105 --dry-run
@@ -164,7 +137,7 @@ dotnet new console -o demo7
 
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/3d160a9a-0225-414f-8d93-cce4deef7963)
 
-### 5.3. Creating a Console Application with .NET 8.
+### 3.3. Creating a Console Application with .NET 8.
 ```
 dotnet --list-sdks
 dotnet new globaljson --sdk-version 8.0.100-preview.4.23260.5 --dry-run
@@ -173,11 +146,11 @@ dotnet new console -o demo8
 ```
 ![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/a99d623d-35f5-4931-a660-0a2de7f3c9fb)
 
-## 6. Executing the Same Application in .NET 6/7/8.
+## 4. Executing the Same Application in .NET 6/7/8.
 >
 1. Execute the project in 6/7/8
 2. View the output
-### 6.1 . Sample C# Code.
+### 4.1 . Sample C# Code.
 
 ```
 // See https:// aka.ms/ new-console-template for more information
