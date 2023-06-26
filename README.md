@@ -1,4 +1,3 @@
-![image](https://github.com/Ashutosh-Tech-Skillz-Academy/learn-csharp/assets/90964215/6a66801e-c09a-4d64-be5c-95141c2fa7e5)
 # Introduction to Microservices
 ## Date Time: 29-June-2023 at 09:00 AM IST
 ### Event URL:
